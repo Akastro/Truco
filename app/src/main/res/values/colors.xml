@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#151212</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F9BA2B</color>
+    <color name="colorTextPrimary">#ECECEC</color>
+    <color name="colorTextWinner">#303F9F</color>
+    <color name="colorPositve">#159934</color>
+    <color name="colorNegative">#E93D43</color>
+
+
+    <color name="colorBlue">#3E80B4</color>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Marca Tento</string>
+
+    <string-array name="frases_do_truqueiro">
+        <item>A vida não consiste em ter boas cartas na mão e sim em jogar bem as que se tem.</item>
+        <item>Saber desistir. Abandonar ou não abandonar — esta é muitas vezes a questão para um jogador. A arte de abandonar não é ensinada a ninguém. E está lon­ge de ser rara a situação angustiosa em que devo de­cidir se há algum sentido em prosseguir jogando.</item>
+        <item>O sucesso na vida vem não de ter as cartas certas, mas de jogar com as erradas corretamente.</item>
+        <item>O sexo é como Truco: se não tiver um bom parceiro, é muito importante que se tenha uma boa mão.</item>
+        <item>Pato: É aquele seu amigo que sabe as regras do jogo, mas joga mal…</item>
+        <item>Marreco: É outra espécie de Pato, mas no fim é tudo ruim no jogo.</item>
+        <item>Morrer de pau duro: Não, não é o que você está pensando. É quando mesmo com o Zap na sua mão, o seu parceiro foge e você não usa as cartas.</item>
+        <item>A primeira vai a missa: Foda-se, vo jogar o zap na primeira e meu parceiro que se vire depois! </item>
+        <item>A primeira em casa, o resto no grito: Foda-se, vo jogar o zap na primeira e meu parceiro que se vire depois!</item>
+        <item>Casal na mão de tonto vale um ponto: Não é difícil de adivinhar o significado dessa… quando você ganha do casal maior, O rei e a dama.</item>
+        <item>Na testa nunca se empresta: Passa saliva e cola o Zap na testa!</item>
+        <item>Pro rei não se mente, minha gente: O cara ta zuando com sua cara e achando que você vai cair no blefe. Mas o rei do truco é você!</item>
+        <item>Zap seco: Você pega as suas cartas e fica todo feliz com o Zap na mão. Mas as outras cartas são todas péssimas.</item>
+        <item>Sou o pé: Não, você não ta fedendo chulé. O pé é o ultimo da rodada a jogar.</item>
+    </string-array>
+
+
+    <string name="menu_restart">Reiniciar</string>
+    <string name="menu_daily_message">Ver mensagens de truqueiros</string>
+    <string name="menu_instrucoes">Instruções de como utilizar o App Marca Tento</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_sugestao">Envie-nos uma sugestão ou crítica</string>
+    <string name="menu_historico">Vizualizar histórico das partidas</string>
+    <string name="hint_eles">Eles</string>
+    <string name="hint_nos">Nós</string>
+    <string name="txt_bois">Bois:</string>
+    <string name="txt_mao_de_onze">Está de mão de onze !</string>
+</resources>

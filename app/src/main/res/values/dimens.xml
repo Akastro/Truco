@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="pontos_margin_start">40dp</dimen>
+    <dimen name="pontos_margin_end">40dp</dimen>
+
+    <dimen name="padding_tabela_pontos">2dp</dimen>
+    <dimen name="pontos_size">60sp</dimen>
+    <dimen name="pontos_subtrai_size">40sp</dimen>
+    <dimen name="pontos_soma_size">40sp</dimen>
+    <dimen name="edit_text_min_width">160dp</dimen>
+    <dimen name="view_separacao_width">4dp</dimen>
+    <dimen name="txt_bois_size">15sp</dimen>
+    <dimen name="paddin_actions_pontos">10dp</dimen>
+    <dimen name="txt_mao_de_onze_size">20sp</dimen>
+
+
+</resources>
+
+

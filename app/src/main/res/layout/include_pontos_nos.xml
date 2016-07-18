@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtSomaUmNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:padding="@dimen/paddin_actions_pontos"
+        android:textColor="@color/colorPositve"
+        android:layout_gravity="center_vertical|start"
+        android:textSize="@dimen/pontos_soma_size"
+        android:layout_marginEnd="@dimen/pontos_margin_end"
+        android:layout_marginRight="@dimen/pontos_margin_end"/>
+
+    <TextView
+        android:id="@+id/txtPontosNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_gravity="center_vertical|center"
+        android:textSize="@dimen/pontos_size"
+        android:textColor="@color/colorTextPrimary"/>
+
+    <TextView
+        android:id="@+id/txtSubstraiUmNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:padding="@dimen/paddin_actions_pontos"
+        android:textColor="@color/colorNegative"
+        android:layout_gravity="center_vertical|end"
+        android:textSize="@dimen/pontos_subtrai_size"
+        android:layout_marginStart="@dimen/pontos_margin_start"
+        android:layout_marginLeft="@dimen/pontos_margin_start"/>
+</LinearLayout>

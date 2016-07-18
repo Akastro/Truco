@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="true"
+    android:orientation="vertical"
+    android:rowCount="8"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <!--Row 0 Column 0-->
+    <include
+        android:id="@+id/item_top_nos"
+        layout="@layout/include_top_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="0"
+        android:layout_rowWeight="1" />
+
+    <!--Row 0 Column 2-->
+    <include
+        android:id="@+id/item_top_eles"
+        layout="@layout/include_top_eles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="0"
+        android:layout_rowWeight="1" />
+
+    <!--Row 1 Column 2-->
+    <include
+        android:id="@+id/item_bois_eles"
+        layout="@layout/include_bois_eles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="1"
+        android:layout_rowWeight="1" />
+
+    <!--Row 2 Column 1-->
+    <TextView
+        android:id="@+id/txtVs"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:text="Vs"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="40sp" />
+
+    <!--Row 2 Column 0-->
+    <include
+        android:id="@+id/item_pontos_nos"
+        layout="@layout/include_pontos_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="2"
+        android:layout_rowWeight="1" />
+
+    <!--Row 2 Column 2-->
+    <include
+        android:id="@+id/item_pontos_eles"
+        layout="@layout/include_pontos_eles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="2"
+        android:layout_rowWeight="1" />
+
+    <!--Row 1 Column 0-->
+    <include
+        android:id="@+id/item_bois_nos"
+        layout="@layout/include_bois_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="1"
+        android:layout_rowWeight="1" />
+
+    <!--Row 3 Column 0-->
+    <include
+        android:id="@+id/item_tabela_pontos_nos"
+        layout="@layout/include_tabela_pontos_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="3"
+        android:layout_rowWeight="1" />
+
+    <include
+        android:id="@+id/item_mao_de_onze_nos"
+        layout="@layout/include_mao_de_onze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:visibility="gone" />
+
+    <!--Row 3 Column 2-->
+    <include
+        android:id="@+id/item_tabela_pontos_eles"
+        layout="@layout/include_tabela_pontos_eles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="3"
+        android:layout_rowWeight="1" />
+
+    <include
+        android:id="@+id/item_mao_de_onze_eles"
+        layout="@layout/include_mao_de_onze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:visibility="gone" />
+
+</GridLayout>
